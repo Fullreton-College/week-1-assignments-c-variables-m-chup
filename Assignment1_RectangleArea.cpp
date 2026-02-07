@@ -14,11 +14,15 @@ int main()
 /* write your code here */
 	// calculate area
 	
+	cin >> height;
+	cin >> width;
+    double area;
+    area = height * width;
 
 	// write output to console
 	
+    cout << endl << "The area of the rectangle is "<<area<<" units squared."<<endl;
 
 	// return value that indicates normal program exit
     return 0;
 }
-
