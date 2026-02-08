@@ -3,13 +3,7 @@ using namespace std;
 
 int main( )
 {
-    string instructorname;
-    string studentname;
-    string food;
-    string temperature;
-    string adjective;
-    string color;
-    string petanimal;
+    string instructorname , studentname , food , temperature , adjective , color , petanimal;
     
     cout << "Enter your instructor's name." << endl;
     cin >> instructorname;
