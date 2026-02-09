@@ -3,14 +3,18 @@
 using namespace std;
 int main()
 {
-    double mph = 6.5;
-    // PACE calculation
-    /* write your code */
+    double mph2 , minutes2, seconds;
+    int mph , minutes;
+    cout << fixed << setprecision(1);
 
-    //express pace in minutes and seconds
-  /* write your code here */
+    cout << "Enter a quantity of miles (per hour)." << endl;
+    cin >> mph2;
+    mph = static_cast<int>(mph2 * 10);
+    minutes2 = 60 / mph2;
+    minutes = static_cast<int>(minutes2);
+    seconds = 600 % mph;
+    seconds = seconds / mph;
+    seconds = seconds * 60;
 
-  //express your output in 1 decimal points
-
-
+    cout << "The pace is about " << minutes << " minutes and " << seconds << " seconds per mile." << endl;
 }
